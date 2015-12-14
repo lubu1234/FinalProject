@@ -1,0 +1,28 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Slingshot.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Wall.cs" Line="10" Column="3" />
+      <File FileName="Assets\Scripts\Slingshot.cs" Line="22" Column="1" />
+      <File FileName="Assets\Scripts\MissionDemolition.cs" Line="118" Column="19" />
+      <File FileName="Assets\Scripts\FollowCam.cs" Line="102" Column="49" />
+      <File FileName="Assets\Scripts\Goal.cs" Line="8" Column="40" />
+      <File FileName="Assets\Scripts\ProjectileLine.cs" Line="99" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Scripts" expanded="True">
+              <Node name="Slingshot.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,135 @@
+***Materials***
+Mat_Blue
+Mat_Red
+Mat_Green
+Mat_Fire
+Mat_Water
+Mat_Earth
+
+***Prefab***
+Castle_0
+Castle_1
+Castle_2
+Castle_3
+
+Earth
+Fire
+Water
+
+Wall_Blue
+Wall_Blue_H
+Wall_Red
+Wall_Red_H
+
+***Tags***
+Castle
+Wall_Red
+Wall_Blue
+Wall
+Water
+Fire
+Earth
+
+***GUI Text***
+GT_Earth
+GT_Fire
+GT_Water
+GT_Restart
+
+***Slingshot***
+Prefab Projectile List
+Element 0 - Earth
+Element 1 - Water
+Element 2 - Fire
+
+
+***Wall Class***
+
+Methods:
+
+void OnCollisionEnter
+
+
+
+***Slingshot Class***
+
+Variables:
+
+public List<GameObject> prefabProjectileList = new List<GameObject> ();
+public static List<GameObject> projectileList = new List<GameObject> ();
+public string projectileName = "Earth";
+
+Methods:
+
+void Awake
+void OnMouseDown
+void Update
+
+
+***FollowCam Class***
+
+Variables:
+
+public List<GameObject> wallCount = new List<GameObject> ();
+public int isSleeping;
+public Vector3 destroyedPosition;
+
+[SerializeField]
+public bool isWaiting;
+
+
+Methods:
+
+void Update
+
+
+***MissionDemolition Class***
+
+Variables:
+
+public GUIText gtEarth;
+public GUIText gtFire;
+public GUIText gtWater;
+public GUIText gtRestart;
+
+public int earthGiven;
+public int fireGiven;
+public int waterGiven;
+
+Methods:
+
+void Update
+void StartLevel
+void NextLevel
+void RestartGame
+void ShowGT
+void OnGUI
+
+public static void ShotFired(stringProjName)
+
+
+
+***Goal Class***
+
+Variables:
+
+void OnTriggerEnter
+
+
+***ProjectileLine Class***
+
+Methods:
+
+void FixedUpdate
+
+
+
+
+
+
+
+
+
+
+
+
